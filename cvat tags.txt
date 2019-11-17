@@ -1,0 +1,6 @@
+car bus motorbike bicycle truck ignore
+
+vehicle @select=type:car,bicycle,bus,motorbike,truck ~select=LR_side:__undefined__,left,right ~select=FB_side:__undefined__,front,back ~select=occlusion:__undefined__,full,partial ignore
+
+
+bicycle bus car motorbike truck vehicle ignore

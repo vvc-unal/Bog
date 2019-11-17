@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1</id>
+      <name>MOV_0861</name>
+      <size>86</size>
+      <mode>interpolation</mode>
+      <overlap>5</overlap>
+      <bugtracker></bugtracker>
+      <flipped>False</flipped>
+      <created>2019-06-09 18:54:54.511717+03:00</created>
+      <updated>2019-06-09 19:16:41.729558+03:00</updated>
+      <labels>
+        <label>
+          <name>ignore</name>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>vehicle</name>
+          <attributes>
+            <attribute>
+              <name>type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>car</default_value>
+              <values>car
+bicycle
+bus
+motorbike
+truck</values>
+            </attribute>
+            <attribute>
+              <name>LR_side</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+left
+right</values>
+            </attribute>
+            <attribute>
+              <name>FB_side</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+front
+back</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+full
+partial</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>1</id>
+          <start>0</start>
+          <stop>85</stop>
+          <url>http://localhost:8080/?id=1</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>cvat</username>
+        <email>cvat@localhost.com</email>
+      </owner>
+      <original_size>
+        <width>3840</width>
+        <height>2160</height>
+      </original_size>
+    </task>
+    <dumped>2019-06-09 19:16:43.658808+03:00</dumped>
+  </meta>
+  <track id="0" label="ignore">
+    <box frame="0" outside="0" occluded="0" keyframe="1" xtl="1315.30" ytl="728.62" xbr="1520.24" ybr="838.02">
+    </box>
+    <box frame="1" outside="0" occluded="0" keyframe="1" xtl="1225.79" ytl="837.15" xbr="1430.73" ybr="946.56">
+    </box>
+    <box frame="2" outside="0" occluded="0" keyframe="0" xtl="1223.35" ytl="836.68" xbr="1428.29" ybr="946.08">
+    </box>
+    <box frame="3" outside="0" occluded="0" keyframe="0" xtl="1220.92" ytl="836.21" xbr="1425.86" ybr="945.61">
+    </box>
+    <box frame="4" outside="0" occluded="0" keyframe="0" xtl="1218.48" ytl="835.74" xbr="1423.42" ybr="945.14">
+    </box>
+    <box frame="5" outside="0" occluded="0" keyframe="0" xtl="1216.04" ytl="835.27" xbr="1420.98" ybr="944.67">
+    </box>
+    <box frame="6" outside="0" occluded="0" keyframe="0" xtl="1213.60" ytl="834.80" xbr="1418.54" ybr="944.20">
+    </box>
+    <box frame="7" outside="0" occluded="0" keyframe="0" xtl="1211.17" ytl="834.32" xbr="1416.11" ybr="943.72">
+    </box>
+    <box frame="8" outside="0" occluded="0" keyframe="0" xtl="1208.73" ytl="833.85" xbr="1413.67" ybr="943.25">
+    </box>
+    <box frame="9" outside="0" occluded="0" keyframe="0" xtl="1206.29" ytl="833.38" xbr="1411.23" ybr="942.78">
+    </box>
+    <box frame="10" outside="0" occluded="0" keyframe="0" xtl="1203.85" ytl="832.91" xbr="1408.80" ybr="942.31">
+    </box>
+    <box frame="11" outside="0" occluded="0" keyframe="0" xtl="1201.42" ytl="832.44" xbr="1406.36" ybr="941.84">
+    </box>
+    <box frame="12" outside="0" occluded="0" keyframe="1" xtl="1198.98" ytl="831.96" xbr="1403.92" ybr="941.37">
+    </box>
+    <box frame="13" outside="0" occluded="0" keyframe="0" xtl="1198.55" ytl="833.87" xbr="1403.49" ybr="943.27">
+    </box>
+    <box frame="14" outside="0" occluded="0" keyframe="0" xtl="1198.12" ytl="835.77" xbr="1403.06" ybr="945.17">
+    </box>
+    <box frame="15" outside="0" occluded="0" keyframe="0" xtl="1197.68" ytl="837.67" xbr="1402.62" ybr="947.07">
+    </box>
+    <box frame="16" outside="0" occluded="0" keyframe="0" xtl="1197.25" ytl="839.58" xbr="1402.19" ybr="948.98">
+    </box>
+    <box frame="17" outside="0" occluded="0" keyframe="0" xtl="1196.82" ytl="841.48" xbr="1401.76" ybr="950.88">
+    </box>
+    <box frame="18" outside="0" occluded="0" keyframe="0" xtl="1196.39" ytl="843.38" xbr="1401.33" ybr="952.78">
+    </box>
+    <box frame="19" outside="0" occluded="0" keyframe="0" xtl="1195.95" ytl="845.28" xbr="1400.89" ybr="954.68">
+    </box>
+    <box frame="20" outside="0" occluded="0" keyframe="0" xtl="1195.52" ytl="847.19" xbr="1400.46" ybr="956.59">
+    </box>
+    <box frame="21" outside="0" occluded="0" keyframe="0" xtl="1195.09" ytl="849.09" xbr="1400.03" ybr="958.49">
+    </box>
+    <box frame="22" outside="0" occluded="0" keyframe="1" xtl="1194.66" ytl="850.99" xbr="1399.60" ybr="960.39">
+    </box>
+    <box frame="23" outside="0" occluded="0" keyframe="0" xtl="1193.79" ytl="852.37" xbr="1398.73" ybr="961.78">
+    </box>
+    <box frame="24" outside="0" occluded="0" keyframe="0" xtl="1192.93" ytl="853.76" xbr="1397.87" ybr="963.16">
+    </box>
+    <box frame="25" outside="0" occluded="0" keyframe="0" xtl="1192.06" ytl="855.14" xbr="1397.00" ybr="964.54">
+    </box>
+    <box frame="26" outside="0" occluded="0" keyframe="0" xtl="1191.20" ytl="856.53" xbr="1396.14" ybr="965.93">
+    </box>
+    <box frame="27" outside="0" occluded="0" keyframe="0" xtl="1190.33" ytl="857.91" xbr="1395.27" ybr="967.31">
+    </box>
+    <box frame="28" outside="0" occluded="0" keyframe="0" xtl="1189.47" ytl="859.29" xbr="1394.41" ybr="968.69">
+    </box>
+    <box frame="29" outside="0" occluded="0" keyframe="0" xtl="1188.60" ytl="860.68" xbr="1393.54" ybr="970.08">
+    </box>
+    <box frame="30" outside="0" occluded="0" keyframe="0" xtl="1187.74" ytl="862.06" xbr="1392.68" ybr="971.46">
+    </box>
+    <box frame="31" outside="0" occluded="0" keyframe="0" xtl="1186.87" ytl="863.44" xbr="1391.81" ybr="972.85">
+    </box>
+    <box frame="32" outside="0" occluded="0" keyframe="1" xtl="1186.01" ytl="864.83" xbr="1390.95" ybr="974.23">
+    </box>
+    <box frame="33" outside="0" occluded="0" keyframe="0" xtl="1185.47" ytl="864.09" xbr="1390.41" ybr="973.49">
+    </box>
+    <box frame="34" outside="0" occluded="0" keyframe="0" xtl="1184.93" ytl="863.36" xbr="1389.87" ybr="972.76">
+    </box>
+    <box frame="35" outside="0" occluded="0" keyframe="0" xtl="1184.39" ytl="862.62" xbr="1389.33" ybr="972.02">
+    </box>
+    <box frame="36" outside="0" occluded="0" keyframe="0" xtl="1183.85" ytl="861.89" xbr="1388.79" ybr="971.29">
+    </box>
+    <box frame="37" outside="0" occluded="0" keyframe="0" xtl="1183.31" ytl="861.15" xbr="1388.25" ybr="970.55">
+    </box>
+    <box frame="38" outside="0" occluded="0" keyframe="0" xtl="1182.76" ytl="860.42" xbr="1387.71" ybr="969.82">
+    </box>
+    <box frame="39" outside="0" occluded="0" keyframe="0" xtl="1182.22" ytl="859.68" xbr="1387.16" ybr="969.08">
+    </box>
+    <box frame="40" outside="0" occluded="0" keyframe="0" xtl="1181.68" ytl="858.95" xbr="1386.62" ybr="968.35">
+    </box>
+    <box frame="41" outside="0" occluded="0" keyframe="0" xtl="1181.14" ytl="858.21" xbr="1386.08" ybr="967.61">
+    </box>
+    <box frame="42" outside="0" occluded="0" keyframe="0" xtl="1180.60" ytl="857.48" xbr="1385.54" ybr="966.88">
+    </box>
+    <box frame="43" outside="0" occluded="0" keyframe="0" xtl="1180.06" ytl="856.74" xbr="1385.00" ybr="966.14">
+    </box>
+    <box frame="44" outside="0" occluded="0" keyframe="0" xtl="1179.52" ytl="856.01" xbr="1384.46" ybr="965.41">
+    </box>
+    <box frame="45" outside="0" occluded="0" keyframe="0" xtl="1178.98" ytl="855.27" xbr="1383.92" ybr="964.67">
+    </box>
+    <box frame="46" outside="0" occluded="0" keyframe="0" xtl="1178.44" ytl="854.54" xbr="1383.38" ybr="963.94">
+    </box>
+    <box frame="47" outside="0" occluded="0" keyframe="0" xtl="1177.90" ytl="853.80" xbr="1382.84" ybr="963.20">
+    </box>
+    <box frame="48" outside="0" occluded="0" keyframe="0" xtl="1177.36" ytl="853.07" xbr="1382.30" ybr="962.47">
+    </box>
+    <box frame="49" outside="0" occluded="0" keyframe="0" xtl="1176.82" ytl="852.33" xbr="1381.76" ybr="961.73">
+    </box>
+    <box frame="50" outside="0" occluded="0" keyframe="0" xtl="1176.28" ytl="851.60" xbr="1381.22" ybr="961.00">
+    </box>
+    <box frame="51" outside="0" occluded="0" keyframe="0" xtl="1175.74" ytl="850.86" xbr="1380.68" ybr="960.26">
+    </box>
+    <box frame="52" outside="0" occluded="0" keyframe="1" xtl="1175.20" ytl="850.13" xbr="1380.14" ybr="959.53">
+    </box>
+    <box frame="53" outside="0" occluded="0" keyframe="0" xtl="1174.38" ytl="850.06" xbr="1379.32" ybr="959.46">
+    </box>
+    <box frame="54" outside="0" occluded="0" keyframe="0" xtl="1173.55" ytl="850.00" xbr="1378.49" ybr="959.40">
+    </box>
+    <box frame="55" outside="0" occluded="0" keyframe="0" xtl="1172.73" ytl="849.93" xbr="1377.67" ybr="959.33">
+    </box>
+    <box frame="56" outside="0" occluded="0" keyframe="0" xtl="1171.91" ytl="849.87" xbr="1376.85" ybr="959.27">
+    </box>
+    <box frame="57" outside="0" occluded="0" keyframe="0" xtl="1171.09" ytl="849.80" xbr="1376.03" ybr="959.20">
+    </box>
+    <box frame="58" outside="0" occluded="0" keyframe="0" xtl="1170.27" ytl="849.74" xbr="1375.21" ybr="959.14">
+    </box>
+    <box frame="59" outside="0" occluded="0" keyframe="0" xtl="1169.45" ytl="849.67" xbr="1374.39" ybr="959.07">
+    </box>
+    <box frame="60" outside="0" occluded="0" keyframe="0" xtl="1168.62" ytl="849.61" xbr="1373.57" ybr="959.01">
+    </box>
+    <box frame="61" outside="0" occluded="0" keyframe="0" xtl="1167.80" ytl="849.54" xbr="1372.74" ybr="958.94">
+    </box>
+    <box frame="62" outside="0" occluded="0" keyframe="0" xtl="1166.98" ytl="849.48" xbr="1371.92" ybr="958.88">
+    </box>
+    <box frame="63" outside="0" occluded="0" keyframe="0" xtl="1166.16" ytl="849.41" xbr="1371.10" ybr="958.81">
+    </box>
+    <box frame="64" outside="0" occluded="0" keyframe="0" xtl="1165.34" ytl="849.35" xbr="1370.28" ybr="958.75">
+    </box>
+    <box frame="65" outside="0" occluded="0" keyframe="0" xtl="1164.52" ytl="849.28" xbr="1369.46" ybr="958.68">
+    </box>
+    <box frame="66" outside="0" occluded="0" keyframe="0" xtl="1163.70" ytl="849.22" xbr="1368.64" ybr="958.62">
+    </box>
+    <box frame="67" outside="0" occluded="0" keyframe="0" xtl="1162.87" ytl="849.15" xbr="1367.81" ybr="958.55">
+    </box>
+    <box frame="68" outside="0" occluded="0" keyframe="0" xtl="1162.05" ytl="849.09" xbr="1366.99" ybr="958.49">
+    </box>
+    <box frame="69" outside="0" occluded="0" keyframe="0" xtl="1161.23" ytl="849.02" xbr="1366.17" ybr="958.42">
+    </box>
+    <box frame="70" outside="0" occluded="0" keyframe="0" xtl="1160.41" ytl="848.96" xbr="1365.35" ybr="958.36">
+    </box>
+    <box frame="71" outside="0" occluded="0" keyframe="0" xtl="1159.59" ytl="848.89" xbr="1364.53" ybr="958.29">
+    </box>
+    <box frame="72" outside="0" occluded="0" keyframe="1" xtl="1158.77" ytl="848.83" xbr="1363.71" ybr="958.23">
+    </box>
+    <box frame="73" outside="0" occluded="0" keyframe="0" xtl="1158.29" ytl="848.83" xbr="1363.23" ybr="958.23">
+    </box>
+    <box frame="74" outside="0" occluded="0" keyframe="0" xtl="1157.81" ytl="848.83" xbr="1362.75" ybr="958.23">
+    </box>
+    <box frame="75" outside="0" occluded="0" keyframe="0" xtl="1157.34" ytl="848.83" xbr="1362.28" ybr="958.23">
+    </box>
+    <box frame="76" outside="0" occluded="0" keyframe="0" xtl="1156.86" ytl="848.83" xbr="1361.80" ybr="958.23">
+    </box>
+    <box frame="77" outside="0" occluded="0" keyframe="0" xtl="1156.39" ytl="848.83" xbr="1361.33" ybr="958.23">
+    </box>
+    <box frame="78" outside="0" occluded="0" keyframe="0" xtl="1155.91" ytl="848.83" xbr="1360.85" ybr="958.23">
+    </box>
+    <box frame="79" outside="0" occluded="0" keyframe="0" xtl="1155.44" ytl="848.83" xbr="1360.38" ybr="958.23">
+    </box>
+    <box frame="80" outside="0" occluded="0" keyframe="0" xtl="1154.96" ytl="848.83" xbr="1359.90" ybr="958.23">
+    </box>
+    <box frame="81" outside="0" occluded="0" keyframe="0" xtl="1154.48" ytl="848.83" xbr="1359.42" ybr="958.23">
+    </box>
+    <box frame="82" outside="0" occluded="0" keyframe="1" xtl="1154.01" ytl="848.83" xbr="1358.95" ybr="958.23">
+    </box>
+    <box frame="83" outside="0" occluded="0" keyframe="0" xtl="1154.01" ytl="848.83" xbr="1358.95" ybr="958.23">
+    </box>
+    <box frame="84" outside="0" occluded="0" keyframe="0" xtl="1154.01" ytl="848.83" xbr="1358.95" ybr="958.23">
+    </box>
+    <box frame="85" outside="0" occluded="0" keyframe="0" xtl="1154.01" ytl="848.83" xbr="1358.95" ybr="958.23">
+    </box>
+  </track>
+  <track id="1" label="vehicle">
+    <box frame="0" outside="0" occluded="0" keyframe="1" xtl="2258.62" ytl="773.97" xbr="2499.64" ybr="942.90">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="1" outside="0" occluded="0" keyframe="1" xtl="2172.54" ytl="893.11" xbr="2425.83" ybr="1068.18">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="2" outside="0" occluded="0" keyframe="0" xtl="2186.97" ytl="893.25" xbr="2446.28" ybr="1070.42">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="3" outside="0" occluded="0" keyframe="0" xtl="2201.41" ytl="893.38" xbr="2466.74" ybr="1072.67">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="4" outside="0" occluded="0" keyframe="0" xtl="2215.84" ytl="893.51" xbr="2487.19" ybr="1074.91">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="5" outside="0" occluded="0" keyframe="0" xtl="2230.27" ytl="893.64" xbr="2507.65" ybr="1077.16">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="6" outside="0" occluded="0" keyframe="1" xtl="2244.71" ytl="893.78" xbr="2528.10" ybr="1079.40">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="7" outside="0" occluded="0" keyframe="0" xtl="2285.23" ytl="894.78" xbr="2583.12" ybr="1087.98">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="8" outside="0" occluded="0" keyframe="1" xtl="2325.74" ytl="895.78" xbr="2638.14" ybr="1096.56">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="9" outside="0" occluded="0" keyframe="0" xtl="2348.04" ytl="896.79" xbr="2674.93" ybr="1105.14">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="10" outside="0" occluded="0" keyframe="0" xtl="2370.33" ytl="897.79" xbr="2711.73" ybr="1113.71">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="11" outside="0" occluded="0" keyframe="0" xtl="2392.63" ytl="898.80" xbr="2748.53" ybr="1122.29">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="12" outside="0" occluded="0" keyframe="0" xtl="2414.93" ytl="899.80" xbr="2785.32" ybr="1130.87">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="13" outside="0" occluded="0" keyframe="0" xtl="2437.22" ytl="900.81" xbr="2822.12" ybr="1139.45">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="14" outside="0" occluded="0" keyframe="0" xtl="2459.52" ytl="901.81" xbr="2858.92" ybr="1148.03">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="15" outside="0" occluded="0" keyframe="0" xtl="2481.81" ytl="902.82" xbr="2895.72" ybr="1156.61">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="16" outside="0" occluded="0" keyframe="0" xtl="2504.11" ytl="903.82" xbr="2932.51" ybr="1165.19">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="17" outside="0" occluded="0" keyframe="0" xtl="2526.40" ytl="904.83" xbr="2969.31" ybr="1173.76">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="18" outside="0" occluded="0" keyframe="0" xtl="2548.70" ytl="905.83" xbr="3006.11" ybr="1182.34">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="19" outside="0" occluded="0" keyframe="0" xtl="2571.00" ytl="906.84" xbr="3042.90" ybr="1190.92">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="20" outside="0" occluded="0" keyframe="1" xtl="2593.29" ytl="907.84" xbr="3079.70" ybr="1199.50">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="21" outside="0" occluded="0" keyframe="0" xtl="2623.34" ytl="909.62" xbr="3136.40" ybr="1216.83">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="22" outside="0" occluded="0" keyframe="0" xtl="2653.38" ytl="911.41" xbr="3193.10" ybr="1234.17">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="23" outside="0" occluded="0" keyframe="1" xtl="2683.43" ytl="913.19" xbr="3249.80" ybr="1251.50">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="24" outside="0" occluded="0" keyframe="0" xtl="2730.48" ytl="914.98" xbr="3334.11" ybr="1266.70">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="25" outside="0" occluded="0" keyframe="0" xtl="2777.52" ytl="916.76" xbr="3418.43" ybr="1281.90">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="26" outside="0" occluded="0" keyframe="0" xtl="2824.57" ytl="918.55" xbr="3502.74" ybr="1297.10">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="27" outside="0" occluded="0" keyframe="0" xtl="2871.61" ytl="920.33" xbr="3587.06" ybr="1312.30">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="28" outside="0" occluded="0" keyframe="0" xtl="2918.66" ytl="922.12" xbr="3671.37" ybr="1327.50">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="29" outside="0" occluded="0" keyframe="0" xtl="2965.70" ytl="923.90" xbr="3755.69" ybr="1342.70">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="30" outside="0" occluded="0" keyframe="1" xtl="3012.75" ytl="925.69" xbr="3840.00" ybr="1357.90">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="31" outside="0" occluded="0" keyframe="0" xtl="3080.54" ytl="926.52" xbr="3840.00" ybr="1391.65">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="32" outside="0" occluded="0" keyframe="0" xtl="3148.33" ytl="927.34" xbr="3840.00" ybr="1425.40">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="33" outside="0" occluded="0" keyframe="0" xtl="3216.11" ytl="928.17" xbr="3840.00" ybr="1459.15">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="34" outside="0" occluded="0" keyframe="1" xtl="3283.90" ytl="929.00" xbr="3840.00" ybr="1492.90">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="35" outside="0" occluded="0" keyframe="0" xtl="3392.94" ytl="939.89" xbr="3840.00" ybr="1496.53">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="36" outside="0" occluded="0" keyframe="0" xtl="3501.98" ytl="950.77" xbr="3840.00" ybr="1500.15">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="37" outside="0" occluded="0" keyframe="0" xtl="3611.02" ytl="961.66" xbr="3840.00" ybr="1503.78">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="38" outside="0" occluded="0" keyframe="1" xtl="3720.06" ytl="972.54" xbr="3840.00" ybr="1507.40">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+    <box frame="39" outside="1" occluded="0" keyframe="1" xtl="3720.06" ytl="972.54" xbr="3840.00" ybr="1507.40">
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="LR_side">right</attribute>
+      <attribute name="type">car</attribute>
+    </box>
+  </track>
+  <track id="2" label="vehicle">
+    <box frame="0" outside="0" occluded="0" keyframe="1" xtl="3400.75" ytl="728.13" xbr="3621.55" ybr="1000.57">
+      <attribute name="LR_side">right</attribute>
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">motorbike</attribute>
+    </box>
+    <box frame="1" outside="0" occluded="0" keyframe="1" xtl="3343.94" ytl="840.47" xbr="3569.90" ybr="1124.50">
+      <attribute name="LR_side">right</attribute>
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">motorbike</attribute>
+    </box>
+    <box frame="2" outside="0" occluded="0" keyframe="0" xtl="3394.30" ytl="840.63" xbr="3632.63" ybr="1130.05">
+      <attribute name="LR_side">right</attribute>
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">motorbike</attribute>
+    </box>
+    <box frame="3" outside="0" occluded="0" keyframe="0" xtl="3444.65" ytl="840.79" xbr="3695.35" ybr="1135.60">
+      <attribute name="LR_side">right</attribute>
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">motorbike</attribute>
+    </box>
+    <box frame="4" outside="0" occluded="0" keyframe="0" xtl="3495.01" ytl="840.95" xbr="3758.08" ybr="1141.15">
+      <attribute name="LR_side">right</attribute>
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">motorbike</attribute>
+    </box>
+    <box frame="5" outside="0" occluded="0" keyframe="1" xtl="3545.37" ytl="841.11" xbr="3820.80" ybr="1146.70">
+      <attribute name="LR_side">right</attribute>
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">motorbike</attribute>
+    </box>
+    <box frame="6" outside="0" occluded="0" keyframe="0" xtl="3605.08" ytl="838.42" xbr="3830.40" ybr="1148.30">
+      <attribute name="LR_side">right</attribute>
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">motorbike</attribute>
+    </box>
+    <box frame="7" outside="0" occluded="0" keyframe="1" xtl="3664.80" ytl="835.73" xbr="3840.00" ybr="1149.90">
+      <attribute name="LR_side">right</attribute>
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">motorbike</attribute>
+    </box>
+    <box frame="8" outside="1" occluded="0" keyframe="1" xtl="3664.80" ytl="835.73" xbr="3840.00" ybr="1149.90">
+      <attribute name="LR_side">right</attribute>
+      <attribute name="FB_side">front</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">motorbike</attribute>
+    </box>
+  </track>
+  <track id="3" label="vehicle">
+    <box frame="0" outside="0" occluded="0" keyframe="1" xtl="1753.66" ytl="699.19" xbr="2033.41" ybr="796.03">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="1" outside="0" occluded="0" keyframe="1" xtl="1660.04" ytl="810.01" xbr="1939.80" ybr="906.85">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="2" outside="0" occluded="0" keyframe="0" xtl="1650.26" ytl="809.92" xbr="1928.95" ybr="905.68">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="3" outside="0" occluded="0" keyframe="0" xtl="1640.48" ytl="809.82" xbr="1918.09" ybr="904.50">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="4" outside="0" occluded="0" keyframe="0" xtl="1630.70" ytl="809.72" xbr="1907.24" ybr="903.32">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="5" outside="0" occluded="0" keyframe="0" xtl="1620.92" ytl="809.62" xbr="1896.38" ybr="902.14">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="6" outside="0" occluded="0" keyframe="0" xtl="1611.14" ytl="809.53" xbr="1885.53" ybr="900.97">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="7" outside="0" occluded="0" keyframe="0" xtl="1601.35" ytl="809.43" xbr="1874.67" ybr="899.79">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="8" outside="0" occluded="0" keyframe="0" xtl="1591.57" ytl="809.33" xbr="1863.82" ybr="898.61">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="9" outside="0" occluded="0" keyframe="0" xtl="1581.79" ytl="809.23" xbr="1852.96" ybr="897.43">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="10" outside="0" occluded="0" keyframe="0" xtl="1572.01" ytl="809.13" xbr="1842.11" ybr="896.26">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="11" outside="0" occluded="0" keyframe="0" xtl="1562.23" ytl="809.04" xbr="1831.25" ybr="895.08">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="12" outside="0" occluded="0" keyframe="1" xtl="1552.45" ytl="808.94" xbr="1820.40" ybr="893.90">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="13" outside="0" occluded="0" keyframe="0" xtl="1548.34" ytl="810.67" xbr="1814.61" ybr="895.94">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="14" outside="0" occluded="0" keyframe="0" xtl="1544.23" ytl="812.41" xbr="1808.82" ybr="897.98">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="15" outside="0" occluded="0" keyframe="0" xtl="1540.13" ytl="814.15" xbr="1803.03" ybr="900.02">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="16" outside="0" occluded="0" keyframe="0" xtl="1536.02" ytl="815.88" xbr="1797.24" ybr="902.06">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="17" outside="0" occluded="0" keyframe="0" xtl="1531.92" ytl="817.62" xbr="1791.45" ybr="904.10">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="18" outside="0" occluded="0" keyframe="0" xtl="1527.81" ytl="819.36" xbr="1785.66" ybr="906.14">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="19" outside="0" occluded="0" keyframe="0" xtl="1523.71" ytl="821.09" xbr="1779.87" ybr="908.18">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="20" outside="0" occluded="0" keyframe="0" xtl="1519.60" ytl="822.83" xbr="1774.08" ybr="910.22">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="21" outside="0" occluded="0" keyframe="0" xtl="1515.49" ytl="824.56" xbr="1768.29" ybr="912.26">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="22" outside="0" occluded="0" keyframe="1" xtl="1511.39" ytl="826.30" xbr="1762.50" ybr="914.30">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="23" outside="0" occluded="0" keyframe="0" xtl="1507.22" ytl="827.55" xbr="1758.27" ybr="914.55">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="24" outside="0" occluded="0" keyframe="0" xtl="1503.04" ytl="828.79" xbr="1754.04" ybr="914.80">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="25" outside="0" occluded="0" keyframe="0" xtl="1498.87" ytl="830.04" xbr="1749.81" ybr="915.05">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="26" outside="0" occluded="0" keyframe="0" xtl="1494.70" ytl="831.28" xbr="1745.58" ybr="915.30">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="27" outside="0" occluded="0" keyframe="0" xtl="1490.53" ytl="832.53" xbr="1741.35" ybr="915.55">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="28" outside="0" occluded="0" keyframe="0" xtl="1486.36" ytl="833.77" xbr="1737.12" ybr="915.80">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="29" outside="0" occluded="0" keyframe="0" xtl="1482.19" ytl="835.02" xbr="1732.89" ybr="916.05">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="30" outside="0" occluded="0" keyframe="0" xtl="1478.01" ytl="836.26" xbr="1728.66" ybr="916.30">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="31" outside="0" occluded="0" keyframe="0" xtl="1473.84" ytl="837.51" xbr="1724.43" ybr="916.55">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="32" outside="0" occluded="0" keyframe="1" xtl="1469.67" ytl="838.75" xbr="1720.20" ybr="916.80">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="33" outside="0" occluded="0" keyframe="0" xtl="1466.74" ytl="838.82" xbr="1716.03" ybr="916.74">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="34" outside="0" occluded="0" keyframe="0" xtl="1463.82" ytl="838.88" xbr="1711.86" ybr="916.68">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="35" outside="0" occluded="0" keyframe="0" xtl="1460.89" ytl="838.94" xbr="1707.69" ybr="916.62">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="36" outside="0" occluded="0" keyframe="0" xtl="1457.96" ytl="839.00" xbr="1703.52" ybr="916.56">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="37" outside="0" occluded="0" keyframe="0" xtl="1455.04" ytl="839.06" xbr="1699.35" ybr="916.50">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="38" outside="0" occluded="0" keyframe="0" xtl="1452.11" ytl="839.13" xbr="1695.18" ybr="916.44">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="39" outside="0" occluded="0" keyframe="0" xtl="1449.18" ytl="839.19" xbr="1691.01" ybr="916.38">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="40" outside="0" occluded="0" keyframe="0" xtl="1446.26" ytl="839.25" xbr="1686.84" ybr="916.32">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="41" outside="0" occluded="0" keyframe="0" xtl="1443.33" ytl="839.31" xbr="1682.67" ybr="916.26">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="42" outside="0" occluded="0" keyframe="1" xtl="1440.40" ytl="839.38" xbr="1678.50" ybr="916.20">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="43" outside="0" occluded="0" keyframe="0" xtl="1435.92" ytl="837.88" xbr="1667.67" ybr="914.15">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="44" outside="0" occluded="0" keyframe="0" xtl="1431.44" ytl="836.39" xbr="1656.84" ybr="912.10">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="45" outside="0" occluded="0" keyframe="0" xtl="1426.95" ytl="834.89" xbr="1646.01" ybr="910.05">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="46" outside="0" occluded="0" keyframe="0" xtl="1422.47" ytl="833.40" xbr="1635.18" ybr="908.00">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="47" outside="0" occluded="0" keyframe="0" xtl="1417.99" ytl="831.90" xbr="1624.35" ybr="905.95">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="48" outside="0" occluded="0" keyframe="0" xtl="1413.50" ytl="830.41" xbr="1613.52" ybr="903.90">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="49" outside="0" occluded="0" keyframe="0" xtl="1409.02" ytl="828.91" xbr="1602.69" ybr="901.85">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="50" outside="0" occluded="0" keyframe="0" xtl="1404.54" ytl="827.42" xbr="1591.86" ybr="899.80">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="51" outside="0" occluded="0" keyframe="0" xtl="1400.05" ytl="825.93" xbr="1581.03" ybr="897.75">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="52" outside="0" occluded="0" keyframe="1" xtl="1395.57" ytl="824.43" xbr="1570.20" ybr="895.70">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="53" outside="0" occluded="0" keyframe="0" xtl="1392.08" ytl="824.24" xbr="1569.14" ybr="895.51">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="54" outside="0" occluded="0" keyframe="0" xtl="1388.60" ytl="824.06" xbr="1568.08" ybr="895.33">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="55" outside="0" occluded="0" keyframe="0" xtl="1385.11" ytl="823.87" xbr="1567.02" ybr="895.14">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="56" outside="0" occluded="0" keyframe="0" xtl="1381.62" ytl="823.68" xbr="1565.96" ybr="894.95">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="57" outside="0" occluded="0" keyframe="0" xtl="1378.14" ytl="823.50" xbr="1564.90" ybr="894.77">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="58" outside="0" occluded="0" keyframe="0" xtl="1374.65" ytl="823.31" xbr="1563.84" ybr="894.58">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="59" outside="0" occluded="0" keyframe="0" xtl="1371.16" ytl="823.12" xbr="1562.78" ybr="894.39">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="60" outside="0" occluded="0" keyframe="0" xtl="1367.68" ytl="822.94" xbr="1561.72" ybr="894.21">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="61" outside="0" occluded="0" keyframe="0" xtl="1364.19" ytl="822.75" xbr="1560.66" ybr="894.02">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="62" outside="0" occluded="0" keyframe="1" xtl="1360.70" ytl="822.56" xbr="1559.60" ybr="893.83">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="63" outside="0" occluded="0" keyframe="0" xtl="1357.15" ytl="823.12" xbr="1556.74" ybr="893.77">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="64" outside="0" occluded="0" keyframe="0" xtl="1353.60" ytl="823.68" xbr="1553.88" ybr="893.71">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="65" outside="0" occluded="0" keyframe="0" xtl="1350.05" ytl="824.24" xbr="1551.02" ybr="893.64">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="66" outside="0" occluded="0" keyframe="0" xtl="1346.50" ytl="824.80" xbr="1548.16" ybr="893.58">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="67" outside="0" occluded="0" keyframe="0" xtl="1342.96" ytl="825.37" xbr="1545.30" ybr="893.52">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="68" outside="0" occluded="0" keyframe="0" xtl="1339.41" ytl="825.93" xbr="1542.44" ybr="893.45">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="69" outside="0" occluded="0" keyframe="0" xtl="1335.86" ytl="826.49" xbr="1539.58" ybr="893.39">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="70" outside="0" occluded="0" keyframe="0" xtl="1332.31" ytl="827.05" xbr="1536.72" ybr="893.33">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="71" outside="0" occluded="0" keyframe="0" xtl="1328.76" ytl="827.61" xbr="1533.86" ybr="893.26">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="72" outside="0" occluded="0" keyframe="1" xtl="1325.21" ytl="828.17" xbr="1531.00" ybr="893.20">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="73" outside="0" occluded="0" keyframe="0" xtl="1321.97" ytl="827.98" xbr="1526.89" ybr="893.01">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="74" outside="0" occluded="0" keyframe="0" xtl="1318.73" ytl="827.79" xbr="1522.78" ybr="892.83">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="75" outside="0" occluded="0" keyframe="0" xtl="1315.50" ytl="827.61" xbr="1518.67" ybr="892.64">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="76" outside="0" occluded="0" keyframe="0" xtl="1312.26" ytl="827.42" xbr="1514.56" ybr="892.45">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="77" outside="0" occluded="0" keyframe="0" xtl="1309.02" ytl="827.23" xbr="1510.45" ybr="892.27">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="78" outside="0" occluded="0" keyframe="0" xtl="1305.78" ytl="827.05" xbr="1506.34" ybr="892.08">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="79" outside="0" occluded="0" keyframe="0" xtl="1302.54" ytl="826.86" xbr="1502.23" ybr="891.89">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="80" outside="0" occluded="0" keyframe="0" xtl="1299.31" ytl="826.67" xbr="1498.12" ybr="891.71">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="81" outside="0" occluded="0" keyframe="0" xtl="1296.07" ytl="826.49" xbr="1494.01" ybr="891.52">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="82" outside="0" occluded="0" keyframe="1" xtl="1292.83" ytl="826.30" xbr="1489.90" ybr="891.33">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="83" outside="0" occluded="0" keyframe="0" xtl="1290.75" ytl="827.13" xbr="1487.00" ybr="891.96">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="84" outside="0" occluded="0" keyframe="0" xtl="1288.68" ytl="827.96" xbr="1484.10" ybr="892.58">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+    <box frame="85" outside="0" occluded="0" keyframe="1" xtl="1286.60" ytl="828.79" xbr="1481.20" ybr="893.20">
+      <attribute name="LR_side">left</attribute>
+      <attribute name="FB_side">back</attribute>
+      <attribute name="occlusion">__undefined__</attribute>
+      <attribute name="type">bus</attribute>
+    </box>
+  </track>
+</annotations>
